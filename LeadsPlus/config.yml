@@ -1,0 +1,6 @@
+#This is the configuration file for Mach Entertainment's RPlite.
+#The following information should not be touched.
+Config: 1
+Version: '0.1ALPHA'
+Verbose: TRUE
+#The following can be changed

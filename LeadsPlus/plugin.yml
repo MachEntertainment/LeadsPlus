@@ -1,0 +1,9 @@
+name: LeadsPlus
+main: com.machentertainment.LeadsPlus.LeadsPlus
+version: 0.1ALPHA
+website: http://machentertainment.com/
+
+commands:
+   Lead:
+      description: Open the leads plug menu.
+      usage: /lead

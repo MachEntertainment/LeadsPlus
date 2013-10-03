@@ -21,6 +21,11 @@ public final class LeadsPlus extends JavaPlugin{
     
     @Override
     public void onEnable() {
+    	if(this.getConfig().getInt("Version") != 1){
+    		this.saveDefaultConfig();
+    		
+    		getLogger().severe("Configuration is malformed or missing.  Saving default.");
+    	}
     	getLogger().info("LeadsPlus is now starting.");
     	
     	if(this.getConfig().getBoolean("Verbose") == true) {
